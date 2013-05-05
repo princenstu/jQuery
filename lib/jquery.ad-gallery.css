@@ -1,0 +1,15 @@
+#slideshow { max-height:300px; max-width:300px; }
+#holder { height:300px; width:300px; position:relative; z-index:1; text-align:center; background-color:#333; overflow:hidden;}  
+#leftArrowD { position:absolute; left:0px; top:0px; height:inherit; width:50px; z-index:9; opacity:0;}
+#rightArrowD { position:absolute; right:0px; top:0px; height:inherit; width:50px; z-index:9; opacity:0;}
+#leftArrow, #rightArrow { top:41%; position:absolute;}
+#leftArrow:hover, #rightArrow:hover {cursor:pointer; } 
+#descriptionBack { width:300px; height:40px; background-color:#000000; opacity:.7; position:absolute; z-index:7; bottom:-40px; left:0px; filter:alpha(opacity=70); }
+#description { width:280px; padding:10px; position:absolute; z-index: 8; color:#fff; bottom:-40px; left:0px; height:20px;}
+
+#thumbnails { width:300px; height:50px; margin-top:20px;}
+#window { width:250px; height:50px; overflow:hidden; float:left; position:relative;}
+#imageHolder { height:50px; position:absolute; top:0px; left:0px;}
+#imageHolder img { width:35px; height:50px; float:left; margin-right:5px;}
+#thumbnails .thumbnailArrows { width:25px; height:50px; float:left; }
+#thumbnails .thumbnailArrows:hover {cursor:pointer; }
